@@ -1,7 +1,17 @@
-AdventureWork_Project 
+%% AdventureWork_Project 
 Fastload script
 shell scripting 
-HR.FLD 
+This code consists of 4 fast load scripts
+HR.fld
+SALES.fld
+Production.fld
+%% PERSON.fld
+
+
+------------------------------------------------------------------------HR.FLD 
+
+
+
 
 .sessions 2;
 .ERRLIMIT 40;
@@ -372,9 +382,9 @@ rowguid8	(VARCHAR(500))
 ModifiedDate14	(VARCHAR(500))
 
 
-----------------Fastload script
------------------shell scripting 
-----------------------Sales.FLD 
+-Fastload script
+-shell scripting 
+---------------------------------------------------------------------------------Sales.FLD 
 
 
 FILE="F:\data\Sales.CSV";
@@ -619,10 +629,11 @@ end loading;
 
 .LOGOFF; 
 
---------------------------------------
-FastlOD SCRIPT 
-SHELL SCRIPTING PROJECT 
-PRODUCTION.FLD
+
+
+--FastlOD SCRIPT 
+--SHELL SCRIPTING PROJECT 
+------------------------------------------------------------------------PRODUCTION.FLD
  
 .sessions 2;
 ERRLIMIT 40;
@@ -1147,10 +1158,11 @@ end loading;
 
 .LOGOFF; 
 
------------------------------------
-FastlOD SCRIPT 
-SHELL SCRIPTING PROJECT 
-PERSON.FLD
+
+
+--FastlOD SCRIPT 
+--SHELL SCRIPTING PROJECT 
+------------------------------------------------------------------------PERSON.FLD
 
  
 .sessions 2;
@@ -1440,6 +1452,3 @@ end loading;
 
 .LOGOFF; 
 -------------------------------
-FastlOD SCRIPT 
-SHELL SCRIPTING PROJECT 
-PRODUCTION.FLD
